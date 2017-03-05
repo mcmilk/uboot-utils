@@ -38,3 +38,5 @@ chmod +x *
 # this will flash LEDE into the right address from fw.conf
 ./flashwrite /dev/mtd/1 uImage 0
 ```
+
+:sweat_smile:
