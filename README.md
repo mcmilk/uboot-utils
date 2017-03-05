@@ -12,8 +12,8 @@ needed for flashing firmware to routers.
 
 ## fw_setenv / fw_printenv
 
-- these two tools is based on code of uboot-envtools_20081215.orig.tar.gz
-- it can be used for setting up and printing uboot environments
+- these two tools are based on uboot-envtools_20081215.orig.tar.gz
+- they can be used for setting up and printing uboot environments
 
 
 /TR
