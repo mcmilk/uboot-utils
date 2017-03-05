@@ -3,6 +3,7 @@
 
 This is a summary of flashing LEDE via tftp to this device.
 
+```shell
 # your own host must have an tftpd daemon, then do this:
 ifconfig eth0:172 172.16.1.1 up
 
@@ -36,3 +37,4 @@ chmod +x *
 
 # this will flash LEDE into the right address from fw.conf
 ./flashwrite /dev/mtd/1 uImage 0
+```
